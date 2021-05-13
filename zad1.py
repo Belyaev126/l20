@@ -29,7 +29,7 @@ lb2 = Listbox(width=30, height=15, selectmode=EXTENDED)
 btn1 = Button(text=">>>")
 btn2 = Button(text="<<<")
 
-lb1.grid(row=0, column=0, rowspan=4)
+lb1.grid(row=0, column=0, rowspan=4) 
 lb2.grid(row=0, column=3, rowspan=4)
 btn1.grid(row=1, column=1, columnspan=2, sticky=S)
 btn2.grid(row=2, column=1, columnspan=2, sticky=N)
