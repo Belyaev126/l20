@@ -60,7 +60,7 @@ class Game:
 
 
 if __name__ == '__main__':
-    root = Tk()
+    root = Tk() 
     root.resizable(False, False)
     Game()
     root.mainloop()
